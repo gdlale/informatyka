@@ -12,5 +12,4 @@ def start():
 
 
 if __name__ == '__main__':
-	inv.append(mikstura_heal)
 	start()
