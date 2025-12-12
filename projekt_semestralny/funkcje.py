@@ -70,8 +70,6 @@ def namegen(wrog):
 
 
 def walka(wrog, imie_wroga):
-	global quest_wykonane
-	global quest_progress
 	while gracz[HP] > 0 or wrog[HP] > 0:
 		inp = input(
 			"WALKA\n"
@@ -137,9 +135,7 @@ def walka(wrog, imie_wroga):
 		exit()
 
 
-def swiat_1():
-	global quest_wykonane
-	global quest_progress
+def swiat_1()
 	while swiat == 1:
 		print(line)
 		inp = input(
