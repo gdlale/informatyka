@@ -230,7 +230,7 @@ def swiat_1():
 				else:
 					print("Nie masz wystarczająco cebulionów")
 					continue
-			if inp == 'a':
+			if inp == 'a'.lower():
 				pass
 		elif inp == '3':
 			inventory()
