@@ -25,8 +25,8 @@ def print_user(user: dict):
 def add_or_remove_grades(data: list[dict],user_id: int, subject: str, operation: str, grade: int)->None:
     subjects = ['mathematics','polish','english']
     if subject not in subjects:
-                print('Invalid subject')
-                return None
+        print('Invalid subject')
+        return
     for user in data:
         if user.get('id') == user_id:
             key = f"grades {subject}"
@@ -42,8 +42,9 @@ def add_or_remove_grades(data: list[dict],user_id: int, subject: str, operation:
                     print(f'Grade not found in {subject}')
             else:
                 print('Invalid operation')
-        else:
-            print('Couldnt find an user with a matching id')
+            return      
+
+    print('Couldnt find an user with a matching id')
 
             
 def update_user_name(data: list[dict], user_id: int, new_name: str) -> bool:
