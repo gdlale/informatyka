@@ -1,0 +1,69 @@
+[
+    {
+        "id": 411272,
+        "name": "tosia",
+        "surname": "xxxx",
+        "date of birth": "21.06.1621",
+        "grades mathematics": [
+            5,
+            6,
+            1
+        ],
+        "grades polish": [
+            4,
+            6
+        ],
+        "grades english": [
+            2
+        ]
+    },
+    {
+        "id": 70306,
+        "name": "kacper",
+        "surname": "vvvvv",
+        "date of birth": "11.12.1654",
+        "grades mathematics": [
+            1,
+            1,
+            1
+        ],
+        "grades polish": [
+            1,
+            1,
+            1,
+            1,
+            3
+        ],
+        "grades english": [
+            5,
+            5
+        ]
+    },
+    {
+        "id": 947019,
+        "name": "tosia",
+        "surname": "abc",
+        "date of birth": "67.67.67",
+        "grades mathematics": [],
+        "grades polish": [],
+        "grades english": []
+    },
+    {
+        "id": 316156,
+        "name": null,
+        "surname": "asdadf",
+        "date of birth": "6.6.67",
+        "grades mathematics": [],
+        "grades polish": [],
+        "grades english": []
+    },
+    {
+        "id": 73944,
+        "name": null,
+        "surname": "a",
+        "date of birth": null,
+        "grades mathematics": [],
+        "grades polish": [],
+        "grades english": []
+    }
+]
